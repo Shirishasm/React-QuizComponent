@@ -10,7 +10,8 @@ let quizData = require('./quiz_data.json')
 
 render() {
     return(
-        <div>Quiz</div>
+        <div><div> className ="QuizQuestion">{quizData.quiz_questions[0]
+            .instruction_text}</div></div>
     )
 
 }
