@@ -3,11 +3,12 @@ import './App.css'
 import Quiz from './Quiz.js';
 
 
-export default class App extends Component {
+ class App extends Component {
   render() {
     return (
       <Quiz/>
     )
   }
 }
+export default App
 
