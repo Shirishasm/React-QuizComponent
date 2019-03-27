@@ -11,7 +11,8 @@ let quizData = require('./quiz_data.json')
 render() {
     return(
         <div className="QuizQuestion"> {quizData.quiz_questions[0]
-            .instruction_text}</div>
+            .instruction_text}
+            </div>
     )
 
 }
