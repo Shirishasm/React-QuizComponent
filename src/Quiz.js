@@ -11,7 +11,7 @@ let quizData = require('./quiz_data.json')
     }
 
 render() {
-    const isQuizEnd =true
+    const isQuizEnd =((this.state.quiz_position -1) === quizData.quiz_questions.length)
     return(
         <div>
             {isQuizEnd ? <QuizEnd />:
