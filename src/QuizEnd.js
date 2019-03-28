@@ -1,13 +1,14 @@
 import React,{Component} from 'react'
 
 class QuizEnd extends Component{
-    reder(){
-        return (
-        <div>
-        <p>Thanks for playing!</p>
-        <a href='#'>Reset Quiz</a>
-      </div>
-        )
+    
+  reder(){
+      //   return (
+      // //   <div>
+      // //   <p>Thanks for playing!</p>
+      // //   <a href='#'>Reset Quiz</a>
+      // // </div>
+      //   )
     }
 }
 export default QuizEnd
