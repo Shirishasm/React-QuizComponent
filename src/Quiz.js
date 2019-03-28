@@ -11,7 +11,7 @@ let quizData = require('./quiz_data.json')
 render() {
     return(
         <div>
-           <QuizQuestion />
+           <QuizQuestion quiz_question={quizData.quiz_questions[this.state.quiz_position -1]}/>
             </div>
     )
 
