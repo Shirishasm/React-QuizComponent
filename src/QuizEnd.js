@@ -4,12 +4,6 @@ class QuizEnd extends Component{
     
   reder(){
         return 
-        (
-         <div>
-        <p>Thanks for playing!</p>
-        <a href=''>Reset Quiz</a>
-       </div>
-        )
     }
 }
 export default QuizEnd
