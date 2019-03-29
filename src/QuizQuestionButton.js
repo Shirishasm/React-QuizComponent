@@ -9,7 +9,7 @@ this.props.clickHandler(this.props.button_text)
             
             <li>
                 <button>
-                   onClick = {this.handleClick.bind(this)}>{this.props.button_text}
+                   onClick={this.handleClick.bind(this)}>{this.props.button_text}
                 </button>
             </li>
             
