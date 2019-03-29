@@ -4,7 +4,7 @@ class QuizQuestion extends Component{
   
   handleClick(buttonText){
 if(buttonText === this.props.quiz_question.answer){ 
-  this.props.showNextQuestionHandle()
+  this.props.showNextQuestionHandler()
 }
   }
     render(){
